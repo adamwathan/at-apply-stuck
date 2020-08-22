@@ -1,0 +1,12 @@
+{
+  "name": "at-apply-stuck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tailwind build src/index.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.7.3"
+  }
+}

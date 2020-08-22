@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selector {
+  @screen lg {
+    @apply overflow-sub;
+  }
+}
