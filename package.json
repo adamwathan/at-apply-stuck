@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "tailwind build src/index.css"
+    "test": "postcss src/index.css -o out.css"
   },
   "dependencies": {
+    "postcss-cli": "^7.1.1",
+    "postcss-nesting": "^7.0.1",
     "tailwindcss": "^1.7.3"
   }
 }

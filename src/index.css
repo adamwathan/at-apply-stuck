@@ -1,9 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .selector {
-  @screen lg {
-    @apply overflow-sub;
+  @media (min-width: 200px) {
+    @apply overflow-hidden;
   }
 }
